@@ -2,10 +2,6 @@ package com.reypader.scratch.backend.domain.timeline;
 
 import java.util.*;
 
-/*
- * (non-javadoc)
- * TODO: Massive duplication with SimpleFictionalCalendar
- */
 public class SimplifiedGregorianCalendar extends SimpleFictionalCalendar {
 
 

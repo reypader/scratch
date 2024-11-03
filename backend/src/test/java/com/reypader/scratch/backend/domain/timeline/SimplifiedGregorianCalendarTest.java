@@ -142,7 +142,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2025, "January", 1, "Wednesday")
         );
-        // leap year not supported here
+        
         assertEquals(-366, underTest.offsetOfInstant(new FictionalInstant(2024, "January", 1, "Monday")));
     }
 
@@ -154,7 +154,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "January", 1, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(366, underTest.offsetOfInstant(new FictionalInstant(2025, "January", 1, "Wednesday")));
     }
 
@@ -166,7 +166,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2025, "January", 1, "Wednesday")
         );
-        // leap year not supported here
+        
         assertEquals(-397, underTest.offsetOfInstant(new FictionalInstant(2023, "December", 1, "Friday")));
     }
 
@@ -178,7 +178,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "January", 1, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(397, underTest.offsetOfInstant(new FictionalInstant(2025, "February", 1, "Saturday")));
     }
 
@@ -190,7 +190,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2025, "January", 1, "Wednesday")
         );
-        // leap year not supported here
+        
         assertEquals(-393, underTest.offsetOfInstant(new FictionalInstant(2023, "December", 5, "Friday")));
     }
 
@@ -202,7 +202,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "January", 1, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(401, underTest.offsetOfInstant(new FictionalInstant(2025, "February", 5, "Saturday")));
     }
 
@@ -214,7 +214,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2025, "February", 2, "Wednesday")
         );
-        // leap year not supported here
+        
         assertEquals(-425, underTest.offsetOfInstant(new FictionalInstant(2023, "December", 5, "Friday")));
     }
 
@@ -226,7 +226,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "February", 2, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(369, underTest.offsetOfInstant(new FictionalInstant(2025, "February", 5, "Saturday")));
     }
 
@@ -238,7 +238,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2025, "January", 1, "Wednesday")
         );
-        // leap year not supported here
+        
         assertEquals(-1, underTest.offsetOfInstant(new FictionalInstant(2024, "December", 31, "Tuesday")));
     }
 
@@ -250,7 +250,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "January", 1, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(1, underTest.offsetOfInstant(new FictionalInstant(2024, "January", 2, "Tuesday")));
     }
 
@@ -262,7 +262,7 @@ public class SimplifiedGregorianCalendarTest {
                 Arrays.asList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"),
                 new FictionalInstant(2024, "January", 1, "Monday")
         );
-        // leap year not supported here
+        
         assertEquals(0, underTest.offsetOfInstant(new FictionalInstant(2024, "January", 1, "Monday")));
     }
 }

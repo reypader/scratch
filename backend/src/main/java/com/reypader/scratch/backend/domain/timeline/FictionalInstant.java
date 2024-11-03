@@ -1,4 +1,4 @@
-package com.reypader.scratch.backend.domain;
+package com.reypader.scratch.backend.domain.timeline;
 
 import org.apache.logging.log4j.util.Strings;
 
